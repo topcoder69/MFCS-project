@@ -7,10 +7,32 @@ The data set on which the MST was to be found is a list of the most frequently v
 places inside the campus of the University of Hyderabad along with the distances (in
 Kilometers) that connected one place to another.
 
-**RESULTS**
+**HYPOTHESIS**
 
-The graph formed for the matrix, that includes edges for every edge set (u,v) present is as
-follows:
+Since distance from a place to itself is always zero, therefore they were replaced by a
+constant value INFINITY (=999). This was done to prevent the inclusion of these zero
+values in the algorithm, since the algorithm operates on taking minimum cost (here,
+distance).
+
+__Why is Kruskal’s algorithm needed?__
+
+Kruskal’s algorithm is needed as it constructs a MST which finds the minimum
+distance required to travel to all the frequently visited places. It uses a greedy
+technique (i.e., it chooses the one which is the most optimal at the moment only)
+since it sorts the distances in non decreasing order and selects the one with
+minimum distance.
+
+Running time of the Algorithm: O(E logV)
+
+__How does Kruskal’s algorithm work?__
+
+1. List all the edges of the graph in increasing order of weight.
+2. Select the smallest edge of graph G, this is the first edge of spanning tree T.
+3. If there are more than one edge of the same minimal value, select one of them
+arbitrarily.
+4. Select another edge of minimal value from the remaining edges such that
+inclusion of this edge does not form a circuit.
+5. Repeat step 3 until the the tree T contains N-1 edges.
 
 **CONCLUSION**
 
