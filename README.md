@@ -7,49 +7,29 @@ The data set on which the MST was to be found is a list of the most frequently v
 places inside the campus of the University of Hyderabad along with the distances (in
 Kilometers) that connected one place to another.
 
-**DATA**
+**RESULTS**
 
-We have arbitrarily taken 38 most frequently places in HCU campus and are listed
-below:
-0 Main Gate 
-1 Administrative Building
-2 State Bank of India 
-3 Health Centre
-4 North Shopping Complex 
-5 Zakhir Hussain LHC
-6 S. Radhakrishnan LHC 
-7 Student Centre
-8 SCIS 
-9 DST Auditorium
-10 IGM Library 
-11 School of management studies
-12 School of social sciences 
-13 Ambedkar LHC
-14 Electronics Building 
-15 School of humanities
-16 Womens Hostel 
-17 GOPS
-18 Sarojini Naidu school of arts and com 
-19 School of Chemistry
-20 CR rao institute 
-21 CMSD
-22 Football Ground 
-23 Tennis Court
-24 Yoga Centre 
-25 Mens Hostel A-D
-26 Gymnasium 
-27 Shooting Range
-28 School of Medical science 
-29 Post Office
-30 Chief Warden office 
-31 Automobile Workshop
-32 Tagore International Hostel
-33 South Campus Shopping Complex
-34 Centre for integrated studies 
-35 School of life sciences
-36 Mushroom Rock 
-37 Teacup junction
+The graph formed for the matrix, that includes edges for every edge set (u,v) present is as
+follows:
 
-We then constructed a 38X38 matrix which a representation of undirected graph which
-depicts distance from one place to another respectively.
+**CONCLUSION**
 
+The conclusion drawn from the extensive data that was collected from the website as
+well as manually is that the minimum distance (or cost) is roughly equal to 10.75 ~ 11
+Kilometers.
+
+**SOFTWARES AND TOOLS USED**
+
+1. Online compiler - ​ https://www.codechef.com/ide
+2. MATLAB - ​ https://in.mathworks.com/help/matlab/ref/graph.plot.html
+3. Graph online - ​ https://graphonline.ru/en/
+4. CS Academy - ​ https://csacademy.com/app/graph_editor/
+
+**REFERENCES**
+
+1. Introduction to Algorithms, 3rd Ed., Thomas H. Cormen Charles E. Leiserson
+Ronald L. Rivest Clifford Stein
+2. Class notes
+3. Visual Algo - ​ https://visualgo.net/en/mst
+4. Youtube - ​ https://www.youtube.com/watch?v=Yo7sddEVONg
+5. Wiki - ​ https://en.wikipedia.org/wiki/Kruskal%27s_algorithm
