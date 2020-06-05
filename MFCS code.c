@@ -13,7 +13,7 @@
 
 
 #include <stdio.h>
-#include <stdlib.h>			imsahil007/Time-Scheduling-uimsahil007/Time-Scheduling-u		//defined macros for number of places, Maximum cost that will replace 0 values
+#include <stdlib.h>					//defined macros for number of places, Maximum cost that will replace 0 values
 #define SZ 38						//and Maximum characters in the name of a place
 #define MAX 80
 #define INFINITY 999
